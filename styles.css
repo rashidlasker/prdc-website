@@ -24,9 +24,9 @@ nav{
 }
 
 .menu{
-  margin-top: 20px;
   display: inline-block;
   vertical-align: top;
+  margin-top:10px;
 }
 
 .menu ul{
