@@ -76,27 +76,42 @@ nav{
 	height: 100vh;
 	background-image: url(images/twodentistschair.jpg);
 /*	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*position: relative;*/
+  text-align: center;
 }
 .ms{
-	width: 50%;
-	background-color: rgba(255, 255, 255, 0.5);
+	width: 60%;
+	background-color: rgba(255, 255, 255, 0.8);
 	color: #52247F;
-	position: absolute;
-	bottom: 30px;
+  display: none;
+/*	position: absolute;
+	bottom: 60px;
 	left: 70px;
-	padding: 10px;
+	padding: 20px;*/
 	font-weight:bold;
+  vertical-align: bottom;
+  margin-right:5%;
+  padding: 2%;
 }
-h2{
+
+.ms h1{
+  font-size: 50px;
+  font-stretch: 5px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+.ms h2{
 	font-size: 30px;
 	font-stretch: 5px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
 }
-h3{
+.cta h3{
 	font-size: 27px;
 	font-family: 'Roboto', sans-serif;
 	/*font-stretch: 1px;*/
@@ -104,15 +119,19 @@ h3{
 .cta{
 	width: 20%;
 	height: 500px;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.8);
 	color: #52247F;
-	position: absolute;
+  display: none;
+  margin-top: 15vh; 
+  padding: 50px 20px;
+/*	position: absolute;
 	bottom: 60px;
 	right: 70px;
-	padding: 10px;
+	padding: 10px;*/
 	font-weight:bold;
 }
 .button{
+  width: 60%;
 	background-color:#9085aa;
 	-moz-border-radius:22px;
 	-webkit-border-radius:22px;
@@ -126,6 +145,7 @@ h3{
 	padding:16px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
+  text-align: center;
 }
 .button:hover {
 	background-color:#796b9b;
@@ -190,7 +210,7 @@ iframe{
 .carousel{
 	width: 100%;
 	height: 600px;
-	background-image: url(images/twodentistschair.jpg);
+	background-image: url(images/chair.jpg);
 /*	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;*/
 
     /* Full height */
