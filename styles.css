@@ -18,7 +18,7 @@ nav{
 }
 
 .logoimg{
-  height: 80px;
+  height: 70px;
   margin: 0;
 }
 
@@ -46,7 +46,7 @@ nav{
   padding: 0px 20px;
   text-align: center;
   font-size:14pt;
-  font-family: futuraPTMedium, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #979696;
 }
 
@@ -56,7 +56,7 @@ nav{
   margin: 0;
   text-align: center;
   font-size:14pt;
-  font-family: futuraPTMedium, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #979696;
 }
 
@@ -65,7 +65,7 @@ nav{
   padding: 0px 20px;
   text-align: center;
   font-size:14pt;
-  font-family: futuraPTMedium, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
 }
 
@@ -104,6 +104,7 @@ nav{
 	padding-left: 10px;
 	font-size: 20px;
 }
+
 .services{
 	width: 98%;
 	padding: 2%;
@@ -129,4 +130,23 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/********************************FOOTER************************************/
+.footer{
+  width: 100%
+  height: 300px;
+  background-color: #52247F;
+  text-align: center;
+}
+
+.footer div{
+  display: inline-block;
+  width:20%;
+  text-align: left;
+  vertical-align: top;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer div h5{
+  text-align: center;
 }
