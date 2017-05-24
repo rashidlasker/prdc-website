@@ -1,3 +1,70 @@
-.nav{
-  
+body, html, head h1{
+  margin: 0;
+  padding: 0;
 }
+/********************************NAVBAR************************************/
+nav{
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  text-align:center;
+}
+
+.logo{
+  width: 15%;
+  display: inline-block;
+}
+
+.logoimg{
+  height: 80px;
+  margin: 0;
+}
+
+.menu{
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu ul{
+  list-style: none;
+  padding: 0;
+}
+
+.menu a{
+  color: white;
+}
+
+.menu a:hover{
+  color: black;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+  font-size:14pt;
+  font-family: futuraPTMedium, sans-serif;
+  color: #979696;
+}
+
+.menu p {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size:14pt;
+  font-family: futuraPTMedium, sans-serif;
+  color: #979696;
+}
+
+.menu li:hover {
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+  font-size:14pt;
+  font-family: futuraPTMedium, sans-serif;
+  color: black;
+}
+
+/********************************SPLASH************************************/
