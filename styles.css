@@ -1,7 +1,6 @@
-body, html, head h1 li{
+body, html{
   margin: 0;
   padding: 0;
-  font-family: futuraPTMedium, sans-serif;
 }
 /********************************NAVBAR************************************/
 nav{
@@ -174,7 +173,7 @@ h3{
   text-align: center;
 }
 
-.footer div{
+.ft-one, .ft-two, .ft-three, .ft-four{
   display: inline-block;
   width:20%;
   text-align: left;
@@ -182,6 +181,46 @@ h3{
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
-.footer div h5{
+.footer div h4{
   text-align: center;
+}
+.ft-one p, .ft-two p, .ft-three p{
+  font-size: 10pt;
+}
+.footer div a{
+  color:white;
+}
+.footer div a:hover{
+  color:black;
+}
+
+.ft-two{
+  width: 10%;
+}
+
+.ft-three{
+  text-align: center;
+}
+
+.ft-three img{
+  width: 40%;
+  margin: 2.5%;
+  display: inline-block;
+}
+
+.newstitle{
+  font-size: 8pt;
+  margin: 5px;
+}
+
+.date{
+  font-size: 5pt;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright{
+  color:white;
+  margin: 0;
+  padding: 20px;
 }
