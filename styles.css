@@ -171,6 +171,10 @@ nav{
   display: inline-block;
 }
 
+.ft-three img:hover{
+  -webkit-filter: invert(100%);
+}
+
 .newstitle{
   font-size: 8pt;
   margin: 5px;
