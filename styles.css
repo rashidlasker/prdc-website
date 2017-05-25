@@ -162,32 +162,28 @@ nav{
 	font-size: 20px;
 }
 .about-container{
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 	position: relative;
 	height: 400px;
 	width: 98%;
 	display: inline-block;
 	background-color: white;
 	color: black;
-	vertical-align: top;
-}
-iframe{
-	vertical-align: top;
+  text-align:center;
 }
 .video{
-	width: 50%;
-	margin-left: 5%;
+	width: 45%;
+	margin: 10px 2%;
+  margin-bottom: 30px; 
 	display: inline-block;
-	position: absolute;
-	bottom: 30px;
+  vertical-align: top;
 }
 .description{
-	width: 30%;
-	margin: 2%;
+  text-align: left; 
+	width: 45%;
+	margin: 100px 2%;
 	display: inline-block;
-	background-color: white;
-	color: black;
-	position: absolute;
+/*	position: absolute;
 	left: 700px;
 	bottom: 50px;
 /*	position: relative;*/
